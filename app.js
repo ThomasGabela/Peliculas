@@ -17,8 +17,8 @@ http.createServer(function (req, res) {
         case '/en-cartelera' : respuesta = cartelera ; break;
         case "/mas-votadas": respuesta = Votadas; break;
         case '/sucursales' : respuesta = Sucursales; break;
-        case 'contacto' : respuesta = Contacto; break;
-        case 'preguntas frecuentes' : respuesta = Faq; break;
+        case '/contacto' : respuesta = Contacto; break;
+        case '/preguntas frecuentes' : respuesta = Faq; break;
         default: respuesta = "Error";
 
     }
