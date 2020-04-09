@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
 
     res.writeHead(200, {'Content-Type' : "text/play; charset = utf-8"})
     let respuesta = "";
-    console.log(req.url)
+   
     switch (req.url) {
         case '/' : respuesta = Home; break;
         case '/en-cartelera' : respuesta = cartelera ; break;
