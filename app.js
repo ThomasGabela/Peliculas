@@ -4,6 +4,7 @@ const Faq = require("./faq")
 const Sucursales = require("./sucursales")
 const Home = require("./home")
 const Contacto = require("./contacto")
+const Votadas = require("./votadas")
 
 http.createServer(function (req, res) {
 
@@ -13,6 +14,7 @@ http.createServer(function (req, res) {
     switch (req.url) {
         case '/' : respuesta = Home; break;
         case '/en-cartelera' : respuesta = Movies ; break;
+        case "/mas-votadas": respuesta = Votadas; break;
         case '/sucursales' : respuesta = Sucursales; break;
         case 'contacto' : respuesta = Contacto; break;
         case 'preguntas frecuentes' : respuesta = Faq; break;

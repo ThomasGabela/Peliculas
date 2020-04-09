@@ -151,7 +151,7 @@ respuesta += "\nCantidad de peliculas: "+movies.length
 movies.forEach(element => nombre.push(element.title))
 nombre.sort()
 nombre.forEach(element => respuesta += "\n"+ element)
-//[ 1,2,3,4,5] 
+respuesta += "\n\nRecorda que podes visitar las secciones: \nEn cartelera\nMas Votadas\nSucursales\nContacto\nPreguntas Frecuentes"
 
 
 module.exports = respuesta;
