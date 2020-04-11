@@ -18,8 +18,8 @@ http.createServer(function (req, res) {
         case "/mas-votadas": respuesta = Votadas; break;
         case '/sucursales' : respuesta = Sucursales; break;
         case '/contacto' : respuesta = Contacto; break;
-        case '/preguntas frecuentes' : respuesta = Faq; break;
-        default: respuesta = "Error";
+        case '/preguntas_frecuentes' : respuesta = Faq; break;
+        default: respuesta = "Error Pagina no Encontrada";
 
     }
     res.end(respuesta)
