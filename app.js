@@ -1,11 +1,10 @@
 const http = require ("http")
-const Movies = require("./movies")
-const Faq = require("./faq")
-const Sucursales = require("./sucursales")
-const Home = require("./home")
-const Contacto = require("./contacto")
-const Votadas = require("./votadas")
-const cartelera = require("./cartelera")
+const Faq = require("./Routes/faq")
+const Sucursales = require("./Routes/sucursales")
+const Home = require("./Routes/home")
+const Contacto = require("./Routes/contacto")
+const Votadas = require("./Routes/votadas")
+const cartelera = require("./Routes/cartelera")
 
 http.createServer(function (req, res) {
 
