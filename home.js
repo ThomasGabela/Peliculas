@@ -4,7 +4,7 @@ let array1 = fs.readFileSync("./Base de datos/Peliculas.JSON", "utf8")
 let movies = JSON.parse(array1)
 
 let nombre = [];
-let respuesta = "Bienvenidos a DH Movies el mejor sitio para enbcontrar las mejores peliculas, incluso mucho mejor que Netflix, Cuevana y demas."
+let respuesta = "Bienvenidos a DH Movies el mejor sitio para enbcontrar las mejores peliculas, incluso mucho mejor que Netflix, Cuevana y demas.\n"
 
 
 respuesta += "\nCantidad de peliculas: "+movies.length
